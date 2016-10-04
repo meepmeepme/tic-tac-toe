@@ -1,8 +1,23 @@
 #wrapper{
 	height: 98.1%;
-	width: 99.1%;
-	background-color: blue;
-	color: white;
+	width: 99.1%;	color: white;
 	font-family: verdana;
-	position: absolute;
+	background-color: blue;
+}
+.square{
+	height: 33%;
+	width: 33%;
+	background-color: red;
+	z-index: 1;
+	display: inline-block;
+}
+#button1{
+	height: 100%;
+	width: 100%;
+	border: none;
+	background-color: pink;
+}
+body{
+	height: 720px;	
+	width: 1080px;
 }
